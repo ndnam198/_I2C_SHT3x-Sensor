@@ -1,0 +1,5 @@
+mySHT3x.c:3:19:SHT3x_sendCommand	32	static
+mySHT3x.c:21:19:SHT3x_readData	32	static
+mySHT3x.c:39:6:SHT3x_calculateTemp	16	static
+mySHT3x.c:44:6:SHT3x_calculateHumid	16	static
+mySHT3x.c:49:19:SHT3x_CRCCheck	24	static
