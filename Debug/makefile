@@ -11,6 +11,7 @@ RM := rm -rf
 -include Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
+-include Core/Inc/subdir.mk
 -include subdir.mk
 -include objects.mk
 
@@ -47,7 +48,7 @@ all: [I2C]SHT31_TempHumid_Sensor.elf secondary-outputs
 
 # Tool invocations
 [I2C]SHT31_TempHumid_Sensor.elf: $(OBJS) $(USER_OBJS) D:\Document\Software\STM32CubeIDE_workspace\[I2C]SHT31_TempHumid_Sensor\STM32F103C8TX_FLASH.ld
-	arm-none-eabi-gcc -o "[I2C]SHT31_TempHumid_Sensor.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\Document\Software\STM32CubeIDE_workspace\[I2C]SHT31_TempHumid_Sensor\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="[I2C]SHT31_TempHumid_Sensor.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "[I2C]SHT31_TempHumid_Sensor.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\Document\Software\STM32CubeIDE_workspace\[I2C]SHT31_TempHumid_Sensor\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="[I2C]SHT31_TempHumid_Sensor.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

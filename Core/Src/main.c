@@ -35,10 +35,8 @@
 // #include "myRingBuffer.h"
 // #include "myRTOSaddons.h"
 #include "retarget.h"
-//#include "mySHT3x.h"
-//#include "mySHT3x_2.h"
+#include "mySHT3x.h"
 #include "myI2C_2.h"
-
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -52,9 +50,9 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-#define BLINK_LED_FREQ (500u)
-#define SHT3x_READ_FREQ (1000u)
-
+#define  BLINK_LED_FREQ     (177U)
+#define SHT3x_READ_FREQ     (1000U)
+#define WATCHDOG_TIME       (4000U)
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -65,9 +63,10 @@ uint32_t prev_time_read_sensor = 0;
 uint32_t led_status = 0;
 
 uint8_t cmd[2] = { 0x2C, 0x06 };
-uint8_t sht3x_raw_data[6];
+uint8_t sht3x_raw_data[6] = { 0 };
 
 float temp = 0, humid = 0;
+uint32_t now_tick;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -109,46 +108,43 @@ int main(void) {
     MX_GPIO_Init();
     MX_DMA_Init();
     MX_USART2_UART_Init();
-    MX_IWDG_Init();
-//  MX_I2C1_Init();
-//  HAL_I2C_MspInit(&hi2c1);
     /* USER CODE BEGIN 2 */
+    vIWDG_Init(&hiwdg, WATCHDOG_TIME);
     I2C_Init();
-    vIWDG_Init(&hiwdg, 5000);
     __RETARGET_INIT(DEBUG_USART);
     __PRINT_RESET_CAUSE();
     __MY_OFF_ALL_LED();
 
     /* USER CODE END 2 */
-
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
     prev_time_blinkled = HAL_GetTick();
     prev_time_read_sensor = HAL_GetTick();
     while (1) {
+        now_tick = HAL_GetTick();
         /* Task blink led 500ms */
-        if (HAL_GetTick() - prev_time_blinkled >= BLINK_LED_FREQ) {
-            prev_time_blinkled = HAL_GetTick();
+        if (now_tick - prev_time_blinkled >= BLINK_LED_FREQ) {
+            prev_time_blinkled = now_tick;
             __MY_TOGGLE_LED(LED_4);
-            vTimeStamp(HAL_GetTick());
         }
 
         /* Task read sensor 1000ms */
-        if (HAL_GetTick() - prev_time_read_sensor >= SHT3x_READ_FREQ) {
+        if (now_tick - prev_time_read_sensor >= SHT3x_READ_FREQ) {
+            prev_time_read_sensor = now_tick;
             newline;
-            prev_time_read_sensor = HAL_GetTick();
+            __PRINT_TIME_STAMP();
             __MY_TOGGLE_LED(LED_1);
 
             /* SHT31 data read */
-            I2C_Write(0x44 << 1, cmd[0], cmd[1]);
-            I2C_ReadMulti(0x44 << 1, 0x00, 6, sht3x_raw_data);
-
-            temp = (float) (((sht3x_raw_data[0] << 8)
-                    | sht3x_raw_data[1]) * 175) / 65535 - 45;
-            humid = (float) (((sht3x_raw_data[3] << 8)
-                    | sht3x_raw_data[4]) * 100) / 65535;
-
-            PRINTF("temp = %f\r\n humid = %f\r\n", temp, humid);
+            SHT3x_SendCommand(cmd);
+            SHT3x_ReadData(sht3x_raw_data);
+            if (SHT3x_CRCCheck(sht3x_raw_data) == SHT31_OK) {
+                printf("CRC Correct\r\n");
+                SHT3x_calculateTemp(sht3x_raw_data, &temp);
+                printf("%2.2f\r\n", temp);
+            } else {
+                printf("CRC InCorrect\r\n");
+            }
         }
 
         /* USER CODE END WHILE */
@@ -228,7 +224,7 @@ void _Error_Handler(char *file, int line) {
     /* USER CODE BEGIN Error_Handler_Debug */
     /* User can add his own implementation to report the HAL error return state */
     while (1) {
-        PRINTF("\r\nError file %s line %d", file, line);
+        printf("\r\nError file %s line %d", file, line);
     }
     /* USER CODE END Error_Handler_Debug */
 }
@@ -243,10 +239,10 @@ void _Error_Handler(char *file, int line) {
   */
 void assert_failed(uint8_t *file, uint32_t line)
 {
-  /* USER CODE BEGIN 6 */
-  /* User can add his own implementation to report the file name and line number,
+    /* USER CODE BEGIN 6 */
+    /* User can add his own implementation to report the file name and line number,
      tex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
-  /* USER CODE END 6 */
+    /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
 

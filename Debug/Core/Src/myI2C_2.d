@@ -25,7 +25,7 @@ Core/Src/myI2C_2.o: ../Core/Src/myI2C_2.c ../Core/Inc/myI2C_2.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- ../Core/Inc/user_delay.h
+ ../Core/Inc/retarget.h
 
 ../Core/Inc/myI2C_2.h:
 
@@ -83,4 +83,4 @@ Core/Src/myI2C_2.o: ../Core/Src/myI2C_2.c ../Core/Inc/myI2C_2.h \
 
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
 
-../Core/Inc/user_delay.h:
+../Core/Inc/retarget.h:
