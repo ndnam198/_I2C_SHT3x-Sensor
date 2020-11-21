@@ -5,7 +5,7 @@
 "Core/Src/main.o"
 "Core/Src/myDebug.o"
 "Core/Src/myF103.o"
-"Core/Src/myI2C_2.o"
+"Core/Src/myI2C.o"
 "Core/Src/myMisc.o"
 "Core/Src/mySHT3x.o"
 "Core/Src/retarget.o"

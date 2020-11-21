@@ -16,7 +16,7 @@
 #include "main.h"
 #include "retarget.h"
 #include "myDebug.h"
-#include "myI2C_2.h"
+#include "myI2C.h"
 
 #define SHT3x_I2C_ADDRESS_A (0x44 << 1) /* default value when ADDR pin connected to VSS */
 #define SHT3x_I2C_ADDRESS_B (0x45 << 1) /* ADDR pin connected to VDD */
@@ -91,15 +91,15 @@ typedef enum
 
 typedef enum
 {
-    SHT31_OK = 0x00U,
-    SHT31_FAILED,
-} SHT31_StatusTypeDef;
+    SHT3x_OK = 0x00U,
+    SHT3x_FAILED,
+} SHT3x_StatusTypeDef;
 
 /* Function prototype */
-SHT31_StatusTypeDef SHT3x_SendCommand(uint8_t *command);
-SHT31_StatusTypeDef SHT3x_ReadData(uint8_t *data_buffer);
+SHT3x_StatusTypeDef SHT3x_SendCommand(uint8_t *command);
+SHT3x_StatusTypeDef SHT3x_ReadData(uint8_t *data_buffer);
 void SHT3x_calculateTemp(uint8_t *raw_data_buffer, float *temp_buffer);
 void SHT3x_calculateHumid(uint8_t *raw_data_buffer, float *humid_buffer);
-SHT31_StatusTypeDef SHT3x_CRCCheck(uint8_t *data_frame);
+SHT3x_StatusTypeDef SHT3x_CRCCheck(uint8_t *data_frame);
 
 #endif /* !__MY_SHT3x_H */

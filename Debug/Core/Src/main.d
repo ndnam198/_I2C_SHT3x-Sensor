@@ -29,7 +29,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Core/Inc/iwdg.h ../Core/Inc/usart.h ../Core/Inc/gpio.h \
  ../Core/Inc/myDebug.h ../Core/Inc/retarget.h ../Core/Inc/myF103.h \
  ../Core/Inc/myDebug.h ../Core/Inc/myMisc.h ../Core/Inc/retarget.h \
- ../Core/Inc/mySHT3x.h ../Core/Inc/myI2C_2.h ../Core/Inc/myI2C_2.h
+ ../Core/Inc/mySHT3x.h ../Core/Inc/myI2C.h ../Core/Inc/myI2C.h
 
 ../Core/Inc/main.h:
 
@@ -111,6 +111,6 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../Core/Inc/mySHT3x.h:
 
-../Core/Inc/myI2C_2.h:
+../Core/Inc/myI2C.h:
 
-../Core/Inc/myI2C_2.h:
+../Core/Inc/myI2C.h:

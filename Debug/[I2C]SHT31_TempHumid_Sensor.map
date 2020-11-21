@@ -710,158 +710,158 @@ Discarded input sections
  .comment       0x0000000000000000       0x7c Core/Src/myF103.o
  .ARM.attributes
                 0x0000000000000000       0x33 Core/Src/myF103.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .group         0x0000000000000000        0xc Core/Src/myI2C_2.o
- .text          0x0000000000000000        0x0 Core/Src/myI2C_2.o
- .data          0x0000000000000000        0x0 Core/Src/myI2C_2.o
- .bss           0x0000000000000000        0x0 Core/Src/myI2C_2.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .group         0x0000000000000000        0xc Core/Src/myI2C.o
+ .text          0x0000000000000000        0x0 Core/Src/myI2C.o
+ .data          0x0000000000000000        0x0 Core/Src/myI2C.o
+ .bss           0x0000000000000000        0x0 Core/Src/myI2C.o
  .text.I2C_Cmd_Write
-                0x0000000000000000       0x64 Core/Src/myI2C_2.o
+                0x0000000000000000       0x64 Core/Src/myI2C.o
  .text.Read_I2C
-                0x0000000000000000       0x78 Core/Src/myI2C_2.o
+                0x0000000000000000       0x78 Core/Src/myI2C.o
  .text.I2C_WriteMulti
-                0x0000000000000000       0x86 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0xa5a Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x22d Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x2e Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x22 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x22 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x8e Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x51 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0xef Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x6a Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x1df Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x1c Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x22 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0xc3 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0xd23 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000     0xe09e Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x43 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x174 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x5a Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x5be Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x289 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x1cb Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x114 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x1b2 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x27 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x136 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x1bc Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x34 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x3c Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x57 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x88 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x241 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x280 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x78 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x141 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x88b Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x26b Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x83 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x52 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x46 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x18 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x3c Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x34 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x16 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x35 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x32a Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x10 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x52 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x1f Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x43 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x20 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x1a3 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x10 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x1c Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x52 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x40 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x10 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x40 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0xd7 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x1c Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x3d Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x16 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x145 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x16 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x20 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x16 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x16 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x29 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x16 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x10 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000       0x41 Core/Src/myI2C_2.o
- .debug_macro   0x0000000000000000      0x122 Core/Src/myI2C_2.o
+                0x0000000000000000       0x86 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0xa5a Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x22d Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x2e Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x22 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x22 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x8e Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x51 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0xef Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x6a Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x1df Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x1c Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x22 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0xc3 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0xd23 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000     0xe09e Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x43 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x174 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x5a Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x5be Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x289 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x1cb Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x114 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x1b2 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x27 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x136 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x1bc Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x34 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x3c Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x57 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x88 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x241 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x280 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x78 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x141 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x88b Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x26b Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x83 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x52 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x46 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x18 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x3c Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x34 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x16 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x35 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x32a Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x10 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x52 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x1f Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x43 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x20 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x1a3 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x10 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x1c Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x52 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x40 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x10 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x40 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0xd7 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x1c Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x3d Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x16 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x145 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x16 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x20 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x16 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x16 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x29 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x16 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x10 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000       0x41 Core/Src/myI2C.o
+ .debug_macro   0x0000000000000000      0x122 Core/Src/myI2C.o
  .group         0x0000000000000000        0xc Core/Src/myMisc.o
  .group         0x0000000000000000        0xc Core/Src/myMisc.o
  .group         0x0000000000000000        0xc Core/Src/myMisc.o
@@ -4083,7 +4083,7 @@ LOAD Core/Src/iwdg.o
 LOAD Core/Src/main.o
 LOAD Core/Src/myDebug.o
 LOAD Core/Src/myF103.o
-LOAD Core/Src/myI2C_2.o
+LOAD Core/Src/myI2C.o
 LOAD Core/Src/myMisc.o
 LOAD Core/Src/mySHT3x.o
 LOAD Core/Src/retarget.o
@@ -4243,37 +4243,37 @@ LOAD d:/learningsoftware/stm32cubeide/stm32cubeide/stm32cubeide/plugins/com.st.s
                 0x0000000008001484       0x94 Core/Src/myDebug.o
                 0x0000000008001484                vTimeStamp
  .text.I2C_Init
-                0x0000000008001518       0x58 Core/Src/myI2C_2.o
+                0x0000000008001518       0x58 Core/Src/myI2C.o
                 0x0000000008001518                I2C_Init
  .text.I2C_Start
-                0x0000000008001570       0x54 Core/Src/myI2C_2.o
+                0x0000000008001570       0x54 Core/Src/myI2C.o
                 0x0000000008001570                I2C_Start
  .text.I2C_Stop
-                0x00000000080015c4       0x54 Core/Src/myI2C_2.o
+                0x00000000080015c4       0x54 Core/Src/myI2C.o
                 0x00000000080015c4                I2C_Stop
  .text.I2C_Send_Byte
-                0x0000000008001618       0x90 Core/Src/myI2C_2.o
+                0x0000000008001618       0x90 Core/Src/myI2C.o
                 0x0000000008001618                I2C_Send_Byte
  .text.I2C_SendACK
-                0x00000000080016a8       0x50 Core/Src/myI2C_2.o
+                0x00000000080016a8       0x50 Core/Src/myI2C.o
                 0x00000000080016a8                I2C_SendACK
  .text.I2C_SendNACK
-                0x00000000080016f8       0x50 Core/Src/myI2C_2.o
+                0x00000000080016f8       0x50 Core/Src/myI2C.o
                 0x00000000080016f8                I2C_SendNACK
  .text.I2C_Read_Byte
-                0x0000000008001748       0x8c Core/Src/myI2C_2.o
+                0x0000000008001748       0x8c Core/Src/myI2C.o
                 0x0000000008001748                I2C_Read_Byte
  .text.I2C_Wait_Ack
-                0x00000000080017d4       0x68 Core/Src/myI2C_2.o
+                0x00000000080017d4       0x68 Core/Src/myI2C.o
                 0x00000000080017d4                I2C_Wait_Ack
  .text.I2C_Write
-                0x000000000800183c       0x78 Core/Src/myI2C_2.o
+                0x000000000800183c       0x78 Core/Src/myI2C.o
                 0x000000000800183c                I2C_Write
  .text.I2C_ReadMulti
-                0x00000000080018b4       0xa4 Core/Src/myI2C_2.o
+                0x00000000080018b4       0xa4 Core/Src/myI2C.o
                 0x00000000080018b4                I2C_ReadMulti
  .text.delay_ms
-                0x0000000008001958       0x32 Core/Src/myI2C_2.o
+                0x0000000008001958       0x32 Core/Src/myI2C.o
  .text.SHT3x_SendCommand
                 0x000000000800198a       0x38 Core/Src/mySHT3x.o
                 0x000000000800198a                SHT3x_SendCommand
@@ -5041,7 +5041,7 @@ LOAD d:/learningsoftware/stm32cubeide/stm32cubeide/stm32cubeide/plugins/com.st.s
  .ARM.attributes
                 0x0000000000000149       0x33 Core/Src/myDebug.o
  .ARM.attributes
-                0x000000000000017c       0x33 Core/Src/myI2C_2.o
+                0x000000000000017c       0x33 Core/Src/myI2C.o
  .ARM.attributes
                 0x00000000000001af       0x33 Core/Src/mySHT3x.o
  .ARM.attributes
@@ -5187,7 +5187,7 @@ OUTPUT([I2C]SHT31_TempHumid_Sensor.elf elf32-littlearm)
  .debug_info    0x0000000000001186      0x25a Core/Src/iwdg.o
  .debug_info    0x00000000000013e0     0x16a2 Core/Src/main.o
  .debug_info    0x0000000000002a82     0x112c Core/Src/myDebug.o
- .debug_info    0x0000000000003bae      0xdd0 Core/Src/myI2C_2.o
+ .debug_info    0x0000000000003bae      0xdd0 Core/Src/myI2C.o
  .debug_info    0x000000000000497e      0xf7d Core/Src/mySHT3x.o
  .debug_info    0x00000000000058fb     0x118e Core/Src/retarget.o
  .debug_info    0x0000000000006a89      0x411 Core/Src/stm32f1xx_hal_msp.o
@@ -5215,7 +5215,7 @@ OUTPUT([I2C]SHT31_TempHumid_Sensor.elf elf32-littlearm)
  .debug_abbrev  0x00000000000003e6      0x109 Core/Src/iwdg.o
  .debug_abbrev  0x00000000000004ef      0x20f Core/Src/main.o
  .debug_abbrev  0x00000000000006fe      0x21a Core/Src/myDebug.o
- .debug_abbrev  0x0000000000000918      0x26b Core/Src/myI2C_2.o
+ .debug_abbrev  0x0000000000000918      0x26b Core/Src/myI2C.o
  .debug_abbrev  0x0000000000000b83      0x234 Core/Src/mySHT3x.o
  .debug_abbrev  0x0000000000000db7      0x201 Core/Src/retarget.o
  .debug_abbrev  0x0000000000000fb8      0x112 Core/Src/stm32f1xx_hal_msp.o
@@ -5250,7 +5250,7 @@ OUTPUT([I2C]SHT31_TempHumid_Sensor.elf elf32-littlearm)
  .debug_aranges
                 0x00000000000000c8       0x48 Core/Src/myDebug.o
  .debug_aranges
-                0x0000000000000110       0x88 Core/Src/myI2C_2.o
+                0x0000000000000110       0x88 Core/Src/myI2C.o
  .debug_aranges
                 0x0000000000000198       0x40 Core/Src/mySHT3x.o
  .debug_aranges
@@ -5297,7 +5297,7 @@ OUTPUT([I2C]SHT31_TempHumid_Sensor.elf elf32-littlearm)
  .debug_ranges  0x0000000000000040       0x10 Core/Src/iwdg.o
  .debug_ranges  0x0000000000000050       0x28 Core/Src/main.o
  .debug_ranges  0x0000000000000078       0x38 Core/Src/myDebug.o
- .debug_ranges  0x00000000000000b0       0x78 Core/Src/myI2C_2.o
+ .debug_ranges  0x00000000000000b0       0x78 Core/Src/myI2C.o
  .debug_ranges  0x0000000000000128       0x30 Core/Src/mySHT3x.o
  .debug_ranges  0x0000000000000158       0x40 Core/Src/retarget.o
  .debug_ranges  0x0000000000000198       0x10 Core/Src/stm32f1xx_hal_msp.o
@@ -5409,8 +5409,8 @@ OUTPUT([I2C]SHT31_TempHumid_Sensor.elf elf32-littlearm)
  .debug_macro   0x0000000000014769       0xfd Core/Src/myDebug.o
  .debug_macro   0x0000000000014866       0xbd Core/Src/myDebug.o
  .debug_macro   0x0000000000014923       0x54 Core/Src/myDebug.o
- .debug_macro   0x0000000000014977      0x3bf Core/Src/myI2C_2.o
- .debug_macro   0x0000000000014d36       0x6a Core/Src/myI2C_2.o
+ .debug_macro   0x0000000000014977      0x3bf Core/Src/myI2C.o
+ .debug_macro   0x0000000000014d36       0x6a Core/Src/myI2C.o
  .debug_macro   0x0000000000014da0      0x3cb Core/Src/mySHT3x.o
  .debug_macro   0x000000000001516b       0x6e Core/Src/mySHT3x.o
  .debug_macro   0x00000000000151d9      0x438 Core/Src/retarget.o
@@ -5440,35 +5440,35 @@ OUTPUT([I2C]SHT31_TempHumid_Sensor.elf elf32-littlearm)
  .debug_macro   0x0000000000017616      0x1ae Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
  .debug_macro   0x00000000000177c4      0x1af Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
 
-.debug_line     0x0000000000000000    0x122a2
+.debug_line     0x0000000000000000    0x1229a
  .debug_line    0x0000000000000000      0x7d8 Core/Src/dma.o
  .debug_line    0x00000000000007d8      0x7e5 Core/Src/gpio.o
  .debug_line    0x0000000000000fbd      0x80e Core/Src/i2c.o
  .debug_line    0x00000000000017cb      0x7da Core/Src/iwdg.o
- .debug_line    0x0000000000001fa5      0xcd7 Core/Src/main.o
- .debug_line    0x0000000000002c7c      0xc97 Core/Src/myDebug.o
- .debug_line    0x0000000000003913      0xe0e Core/Src/myI2C_2.o
- .debug_line    0x0000000000004721      0xc9d Core/Src/mySHT3x.o
- .debug_line    0x00000000000053be      0xe17 Core/Src/retarget.o
- .debug_line    0x00000000000061d5      0x7de Core/Src/stm32f1xx_hal_msp.o
- .debug_line    0x00000000000069b3      0x80f Core/Src/stm32f1xx_hal_timebase_tim.o
- .debug_line    0x00000000000071c2      0x8fd Core/Src/stm32f1xx_it.o
- .debug_line    0x0000000000007abf      0x71e Core/Src/sysmem.o
- .debug_line    0x00000000000081dd      0x80c Core/Src/system_stm32f1xx.o
- .debug_line    0x00000000000089e9      0x82c Core/Src/usart.o
- .debug_line    0x0000000000009215       0x84 Core/Startup/startup_stm32f103c8tx.o
- .debug_line    0x0000000000009299      0x9b4 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_line    0x0000000000009c4d      0xa8d Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_line    0x000000000000a6da      0xc1b Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
- .debug_line    0x000000000000b2f5      0x9b4 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_line    0x000000000000bca9     0x1c77 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_line    0x000000000000d920      0x80c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.o
- .debug_line    0x000000000000e12c      0xa76 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_line    0x000000000000eba2     0x187a Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
- .debug_line    0x000000000001041c      0xdc7 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
- .debug_line    0x00000000000111e3     0x10bf Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
+ .debug_line    0x0000000000001fa5      0xcd5 Core/Src/main.o
+ .debug_line    0x0000000000002c7a      0xc97 Core/Src/myDebug.o
+ .debug_line    0x0000000000003911      0xe0a Core/Src/myI2C.o
+ .debug_line    0x000000000000471b      0xc9b Core/Src/mySHT3x.o
+ .debug_line    0x00000000000053b6      0xe17 Core/Src/retarget.o
+ .debug_line    0x00000000000061cd      0x7de Core/Src/stm32f1xx_hal_msp.o
+ .debug_line    0x00000000000069ab      0x80f Core/Src/stm32f1xx_hal_timebase_tim.o
+ .debug_line    0x00000000000071ba      0x8fd Core/Src/stm32f1xx_it.o
+ .debug_line    0x0000000000007ab7      0x71e Core/Src/sysmem.o
+ .debug_line    0x00000000000081d5      0x80c Core/Src/system_stm32f1xx.o
+ .debug_line    0x00000000000089e1      0x82c Core/Src/usart.o
+ .debug_line    0x000000000000920d       0x84 Core/Startup/startup_stm32f103c8tx.o
+ .debug_line    0x0000000000009291      0x9b4 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_line    0x0000000000009c45      0xa8d Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_line    0x000000000000a6d2      0xc1b Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_line    0x000000000000b2ed      0x9b4 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_line    0x000000000000bca1     0x1c77 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_line    0x000000000000d918      0x80c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.o
+ .debug_line    0x000000000000e124      0xa76 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_line    0x000000000000eb9a     0x187a Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_line    0x0000000000010414      0xdc7 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_line    0x00000000000111db     0x10bf Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
 
-.debug_str      0x0000000000000000    0x76df0
+.debug_str      0x0000000000000000    0x76dee
  .debug_str     0x0000000000000000    0x6c734 Core/Src/dma.o
                                       0x6ca64 (size before relaxing)
  .debug_str     0x000000000006c734       0x8e Core/Src/gpio.o
@@ -5481,45 +5481,45 @@ OUTPUT([I2C]SHT31_TempHumid_Sensor.elf elf32-littlearm)
                                       0x7259d (size before relaxing)
  .debug_str     0x0000000000072529      0x1d0 Core/Src/myDebug.o
                                       0x717ef (size before relaxing)
- .debug_str     0x00000000000726f9       0xc0 Core/Src/myI2C_2.o
-                                      0x7128a (size before relaxing)
- .debug_str     0x00000000000727b9       0xea Core/Src/mySHT3x.o
+ .debug_str     0x00000000000726f9       0xbe Core/Src/myI2C.o
+                                      0x71288 (size before relaxing)
+ .debug_str     0x00000000000727b7       0xea Core/Src/mySHT3x.o
                                       0x7198c (size before relaxing)
- .debug_str     0x00000000000728a3      0xf15 Core/Src/retarget.o
+ .debug_str     0x00000000000728a1      0xf15 Core/Src/retarget.o
                                       0x7220e (size before relaxing)
- .debug_str     0x00000000000737b8       0x5a Core/Src/stm32f1xx_hal_msp.o
+ .debug_str     0x00000000000737b6       0x5a Core/Src/stm32f1xx_hal_msp.o
                                       0x6ca97 (size before relaxing)
- .debug_str     0x0000000000073812       0x98 Core/Src/stm32f1xx_hal_timebase_tim.o
+ .debug_str     0x0000000000073810       0x98 Core/Src/stm32f1xx_hal_timebase_tim.o
                                       0x6cdb7 (size before relaxing)
- .debug_str     0x00000000000738aa      0x164 Core/Src/stm32f1xx_it.o
+ .debug_str     0x00000000000738a8      0x164 Core/Src/stm32f1xx_it.o
                                       0x6d094 (size before relaxing)
- .debug_str     0x0000000000073a0e       0x6b Core/Src/sysmem.o
+ .debug_str     0x0000000000073a0c       0x6b Core/Src/sysmem.o
                                        0x5f54 (size before relaxing)
- .debug_str     0x0000000000073a79       0xc2 Core/Src/system_stm32f1xx.o
+ .debug_str     0x0000000000073a77       0xc2 Core/Src/system_stm32f1xx.o
                                       0x6c6d5 (size before relaxing)
- .debug_str     0x0000000000073b3b       0x57 Core/Src/usart.o
+ .debug_str     0x0000000000073b39       0x57 Core/Src/usart.o
                                       0x6cec8 (size before relaxing)
- .debug_str     0x0000000000073b92       0x36 Core/Startup/startup_stm32f103c8tx.o
+ .debug_str     0x0000000000073b90       0x36 Core/Startup/startup_stm32f103c8tx.o
                                          0x84 (size before relaxing)
- .debug_str     0x0000000000073bc8      0x37a Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_str     0x0000000000073bc6      0x37a Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
                                       0x6cce6 (size before relaxing)
- .debug_str     0x0000000000073f42      0x2c8 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_str     0x0000000000073f40      0x2c8 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
                                       0x6ccf4 (size before relaxing)
- .debug_str     0x000000000007420a      0x23a Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_str     0x0000000000074208      0x23a Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
                                       0x6ca36 (size before relaxing)
- .debug_str     0x0000000000074444      0x31f Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_str     0x0000000000074442      0x31f Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
                                       0x6ca1f (size before relaxing)
- .debug_str     0x0000000000074763      0xb72 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_str     0x0000000000074761      0xb72 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
                                       0x6d64b (size before relaxing)
- .debug_str     0x00000000000752d5       0x75 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.o
+ .debug_str     0x00000000000752d3       0x75 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.o
                                       0x6c6d7 (size before relaxing)
- .debug_str     0x000000000007534a      0x24e Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_str     0x0000000000075348      0x24e Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
                                       0x6ca58 (size before relaxing)
- .debug_str     0x0000000000075598      0xdd8 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_str     0x0000000000075596      0xdd8 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
                                       0x6d823 (size before relaxing)
- .debug_str     0x0000000000076370      0x579 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_str     0x000000000007636e      0x579 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
                                       0x6d023 (size before relaxing)
- .debug_str     0x00000000000768e9      0x507 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
+ .debug_str     0x00000000000768e7      0x507 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
                                       0x6cf47 (size before relaxing)
 
 .comment        0x0000000000000000       0x7b
@@ -5530,7 +5530,7 @@ OUTPUT([I2C]SHT31_TempHumid_Sensor.elf elf32-littlearm)
  .comment       0x000000000000007b       0x7c Core/Src/iwdg.o
  .comment       0x000000000000007b       0x7c Core/Src/main.o
  .comment       0x000000000000007b       0x7c Core/Src/myDebug.o
- .comment       0x000000000000007b       0x7c Core/Src/myI2C_2.o
+ .comment       0x000000000000007b       0x7c Core/Src/myI2C.o
  .comment       0x000000000000007b       0x7c Core/Src/mySHT3x.o
  .comment       0x000000000000007b       0x7c Core/Src/retarget.o
  .comment       0x000000000000007b       0x7c Core/Src/stm32f1xx_hal_msp.o
@@ -5557,7 +5557,7 @@ OUTPUT([I2C]SHT31_TempHumid_Sensor.elf elf32-littlearm)
  .debug_frame   0x00000000000000dc       0x2c Core/Src/iwdg.o
  .debug_frame   0x0000000000000108       0x98 Core/Src/main.o
  .debug_frame   0x00000000000001a0       0xf0 Core/Src/myDebug.o
- .debug_frame   0x0000000000000290      0x1ec Core/Src/myI2C_2.o
+ .debug_frame   0x0000000000000290      0x1ec Core/Src/myI2C.o
  .debug_frame   0x000000000000047c       0xc8 Core/Src/mySHT3x.o
  .debug_frame   0x0000000000000544      0x10c Core/Src/retarget.o
  .debug_frame   0x0000000000000650       0x34 Core/Src/stm32f1xx_hal_msp.o

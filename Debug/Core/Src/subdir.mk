@@ -11,7 +11,7 @@ C_SRCS += \
 ../Core/Src/main.c \
 ../Core/Src/myDebug.c \
 ../Core/Src/myF103.c \
-../Core/Src/myI2C_2.c \
+../Core/Src/myI2C.c \
 ../Core/Src/myMisc.c \
 ../Core/Src/mySHT3x.c \
 ../Core/Src/retarget.c \
@@ -30,7 +30,7 @@ OBJS += \
 ./Core/Src/main.o \
 ./Core/Src/myDebug.o \
 ./Core/Src/myF103.o \
-./Core/Src/myI2C_2.o \
+./Core/Src/myI2C.o \
 ./Core/Src/myMisc.o \
 ./Core/Src/mySHT3x.o \
 ./Core/Src/retarget.o \
@@ -49,7 +49,7 @@ C_DEPS += \
 ./Core/Src/main.d \
 ./Core/Src/myDebug.d \
 ./Core/Src/myF103.d \
-./Core/Src/myI2C_2.d \
+./Core/Src/myI2C.d \
 ./Core/Src/myMisc.d \
 ./Core/Src/mySHT3x.d \
 ./Core/Src/retarget.d \
@@ -76,8 +76,8 @@ Core/Src/myDebug.o: ../Core/Src/myDebug.c
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/myDebug.d" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@"
 Core/Src/myF103.o: ../Core/Src/myF103.c
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/myF103.d" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@"
-Core/Src/myI2C_2.o: ../Core/Src/myI2C_2.c
-	arm-none-eabi-gcc "$<" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/myI2C_2.d" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@"
+Core/Src/myI2C.o: ../Core/Src/myI2C.c
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/myI2C.d" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@"
 Core/Src/myMisc.o: ../Core/Src/myMisc.c
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/myMisc.d" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@"
 Core/Src/mySHT3x.o: ../Core/Src/mySHT3x.c

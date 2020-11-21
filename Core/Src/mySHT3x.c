@@ -5,9 +5,9 @@
  * 
  * @param hi2c 
  * @param command 
- * @return SHT31_StatusTypeDef 
+ * @return SHT3x_StatusTypeDef 
  */
-SHT31_StatusTypeDef SHT3x_SendCommand(uint8_t *command)
+SHT3x_StatusTypeDef SHT3x_SendCommand(uint8_t *command)
 {
     uint8_t msb_cmd, lsb_cmd, i2c_status;
     msb_cmd = *command;
@@ -15,11 +15,11 @@ SHT31_StatusTypeDef SHT3x_SendCommand(uint8_t *command)
     i2c_status = I2C_Write(SHT3x_I2C_ADDRESS_A, msb_cmd, lsb_cmd);
     if (i2c_status == 0)
     {
-        return SHT31_OK;
+        return SHT3x_OK;
     }
     else
     {
-        return SHT31_FAILED;
+        return SHT3x_FAILED;
     }
 }
 
@@ -28,20 +28,20 @@ SHT31_StatusTypeDef SHT3x_SendCommand(uint8_t *command)
  * 
  * @param hi2c 
  * @param data_buffer 
- * @return SHT31_StatusTypeDef 
+ * @return SHT3x_StatusTypeDef 
  */
-SHT31_StatusTypeDef SHT3x_ReadData(uint8_t *data_buffer)
+SHT3x_StatusTypeDef SHT3x_ReadData(uint8_t *data_buffer)
 {
     uint8_t i2c_status;
     memset(data_buffer, 0, 6);
     i2c_status = I2C_ReadMulti(SHT3x_I2C_ADDRESS_A, 0x00, SHT3x_DATA_LENGTH, data_buffer);
     if (i2c_status == 0)
     {
-        return SHT31_OK;
+        return SHT3x_OK;
     }
     else
     {
-        return SHT31_FAILED;
+        return SHT3x_FAILED;
     }
 }
 
@@ -73,9 +73,9 @@ void SHT3x_calculateHumid(uint8_t *raw_data_buffer, float *humid_buffer)
  * @brief Check CRC validity
  * 
  * @param raw_data_buffer 
- * @return SHT31_StatusTypeDef 
+ * @return SHT3x_StatusTypeDef 
  */
-SHT31_StatusTypeDef SHT3x_CRCCheck(uint8_t *raw_data_buffer)
+SHT3x_StatusTypeDef SHT3x_CRCCheck(uint8_t *raw_data_buffer)
 {
     uint8_t bit;
     uint8_t crc = 0xFF; // calculated checksum
@@ -99,7 +99,7 @@ SHT31_StatusTypeDef SHT3x_CRCCheck(uint8_t *raw_data_buffer)
     }
 
     if (crc != *(raw_data_buffer + 2))
-        return SHT31_FAILED;
+        return SHT3x_FAILED;
     else
-        return SHT31_OK;
+        return SHT3x_OK;
 }

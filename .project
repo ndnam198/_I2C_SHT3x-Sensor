@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>[I2C]SHT31_TempHumid_Sensor</name>
+	<name>[I2C]SHT3x_TempHumid_Sensor</name>
 	<comment></comment>
 	<projects>
 	</projects>

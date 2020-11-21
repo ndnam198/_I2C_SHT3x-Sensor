@@ -1,4 +1,4 @@
-#include "myI2C_2.h"
+#include "myI2C.h"
 #include "retarget.h"
 
 static void delay_ms(uint32_t ms);

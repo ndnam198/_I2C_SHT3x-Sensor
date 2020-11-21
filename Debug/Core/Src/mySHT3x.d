@@ -25,7 +25,7 @@ Core/Src/mySHT3x.o: ../Core/Src/mySHT3x.c ../Core/Inc/mySHT3x.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- ../Core/Inc/retarget.h ../Core/Inc/myDebug.h ../Core/Inc/myI2C_2.h
+ ../Core/Inc/retarget.h ../Core/Inc/myDebug.h ../Core/Inc/myI2C.h
 
 ../Core/Inc/mySHT3x.h:
 
@@ -87,4 +87,4 @@ Core/Src/mySHT3x.o: ../Core/Src/mySHT3x.c ../Core/Inc/mySHT3x.h \
 
 ../Core/Inc/myDebug.h:
 
-../Core/Inc/myI2C_2.h:
+../Core/Inc/myI2C.h:

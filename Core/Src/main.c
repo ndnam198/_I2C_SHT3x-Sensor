@@ -36,7 +36,7 @@
 // #include "myRTOSaddons.h"
 #include "retarget.h"
 #include "mySHT3x.h"
-#include "myI2C_2.h"
+#include "myI2C.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -135,10 +135,10 @@ int main(void) {
             __PRINT_TIME_STAMP();
             __MY_TOGGLE_LED(LED_1);
 
-            /* SHT31 data read */
+            /* SHT3x data read */
             SHT3x_SendCommand(cmd);
             SHT3x_ReadData(sht3x_raw_data);
-            if (SHT3x_CRCCheck(sht3x_raw_data) == SHT31_OK) {
+            if (SHT3x_CRCCheck(sht3x_raw_data) == SHT3x_OK) {
                 printf("CRC Correct\r\n");
                 SHT3x_calculateTemp(sht3x_raw_data, &temp);
                 printf("%2.2f\r\n", temp);
